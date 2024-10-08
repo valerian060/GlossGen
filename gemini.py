@@ -6,7 +6,7 @@ import sys
 
 class Summarise:
     def __init__(self):
-        genai.configure(api_key='AIzaSyD-_SpPS6D5zTenntzIGO71VJra657Mt5I')
+        genai.configure(api_key='')
         self.model = genai.GenerativeModel('gemini-1.5-flash')
 
     def upload_image(self,img_path=''):
